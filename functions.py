@@ -126,3 +126,47 @@ but first function should be called then only we can use local as global'''
 # for i in nr:print(i)
 
 '''sorting group numbers'''
+'''sorting normal way'''
+# list=[int(x) for x in input().split()]
+# list.sort(reverse=True)
+# print(list)
+
+'''with the help of function(sorting)'''
+# def m(lis):
+#     lis.sort()
+#     print(lis)
+#     for i in lis: print(i,end='')
+# print('enter numbers:')
+# a=[int(x)for x in input().split()]
+# m(a)
+
+
+'''Assign function to variable'''
+
+# def x(a):
+#     return print('your name is'+' '+a)
+# a=input()
+# x('hii')
+# print(f'name given by {a}')
+# x('hello')
+
+# def niha(n):
+#     return 'hello'+n
+# n=input()
+# a=niha(n)
+# print(a)
+# print(niha('python'))
+
+
+'''function inside another function'''
+
+# def display(st):
+#     def message():
+#         return 'how are you ? '
+#     m=message()+ st
+#     return m
+# n=input ('enter your name:')
+# s=display(n)
+# print(s)
+
+'''function passed parameters to other functions'''
